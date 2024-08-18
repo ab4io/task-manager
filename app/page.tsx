@@ -9,9 +9,6 @@ export default function Home() {
   return (
     <div>
       <BackgroundBeamsD />
-      <HoverBorderGradient className="bg-white text-black dark:bg-black dark:text-white">
-        Buttn
-      </HoverBorderGradient>
     </div>
   );
 }

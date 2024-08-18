@@ -20,7 +20,7 @@ export function BackgroundBeamsD() {
         </p>
         <div className="flex items-center justify-center">
         <Link href={'/tasks'}>
-        <HoverBorderGradient>Get Started</HoverBorderGradient>
+        <HoverBorderGradient className="bg-white text-black dark:bg-black dark:text-white">Get Started</HoverBorderGradient>
         </Link>
         </div>
       </div>

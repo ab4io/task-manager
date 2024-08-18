@@ -65,32 +65,32 @@ export async function getTasks() {
         </div>
         <DataTable data={tasks} columns={columns} />
       </div>
-      
-      <div className='m-10 p-10 flex justify-between'>
+      <div className='flex justify-center'>
+      <DrawerComp className='flex justify-center'></DrawerComp>
+      </div>
+      <div className='flex justify-center'>
+      <div className='m-10 p-10 justify-between'>
         {/*<CardComponent /> */}
-        
-        <CardSpotlight className="h-96 w-96 items-center justify-center">
-        { tasks.map((task, index) => (
-        <div key={task.id}>
-        <p  className="text-xl font-bold relative z-20 mt-2 text-white">
+        { tasks.slice(0, 4).map((task, index) => (
+        <CardSpotlight className="h-96 my-7 w-3/4 items-center justify-center">
+        <div key={task.id} className='text-gray-400'>
+        <p  className="text-xl font-bold relative z-20 mt-2 ">
           Title: {task.title}
         </p>
-        <p className="text-xl font-bold relative z-20 mt-2 text-white">
+        <p className="text-xl font-bold relative z-20 mt-2 ">
           Assigned To: {task.assignment}
         </p>
-        <p className="text-xl font-bold relative z-20 mt-2 text-white">
+        <p className="text-xl font-bold relative z-20 mt-2 ">
           Status : {task.status}
         </p>
-        <p className="text-xl font-bold relative z-20 mt-2 text-white">
+        <p className="text-xl font-bold relative z-20 mt-2 ">
           Priority : {task.priority}
         </p>
         </div>
-        ))}
         </CardSpotlight>
-        
-        <DrawerComp className='h-96 w-96'></DrawerComp>
+        ))}
       </div>
-      
+      </div>
     </>
   )
 }
