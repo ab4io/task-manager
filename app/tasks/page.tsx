@@ -72,7 +72,7 @@ export async function getTasks() {
       <div className='m-10 p-10 justify-between'>
         {/*<CardComponent /> */}
         { tasks.slice(0, 4).map((task, index) => (
-        <CardSpotlight className="h-60 my-7 w-3/4 items-center justify-center">
+        <CardSpotlight key={task.id} className="h-60 my-7 w-3/4 items-center justify-center">
         <div key={task.id} className='text-gray-400'>
         <p  className="text-xl font-bold relative z-20 mt-2 ">
           Title: {task.title}
