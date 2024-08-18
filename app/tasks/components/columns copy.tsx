@@ -119,7 +119,7 @@ export const columns: ColumnDef<Task>[] = [
   {
     accessorKey: "assignment",
     header: ({ column }) => (
-      <DataTableColumnHeader column={column} title="Assignment" />
+      <DataTableColumnHeader column={column} title="Assigned To" />
     ),
     cell: ({ row }) => {
       const assignments = assignment.find(

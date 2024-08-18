@@ -422,5 +422,381 @@
   "label": "feature",
   "priority": "medium",
   "assignment": "Abi"
+  },
+  {
+    "id": "TASK-1004",
+    "title": "We need to parse the wireless XSS capacitor!",
+    "status": "in progress",
+    "label": "feature",
+    "priority": "high",
+    "assignment": "Assim"
+  },
+  {
+  "id": "TASK-1005",
+  "title": "Calculating the protocol won't do anything, we need to synthesize the virtual HTTP application!",
+  "status": "backlog",
+  "label": "bug",
+  "priority": "medium",
+  "assignment": "Bereket"
+  },
+  {
+  "id": "TASK-1006",
+  "title": "I'll back up the redundant SMS monitor, that should bus the SSL hard drive!",
+  "status": "todo",
+  "label": "documentation",
+  "priority": "low",
+  "assignment": "Muka"
+  },
+  {
+  "id": "TASK-1007",
+  "title": "The XML feed is down, bypass the mobile circuit so we can reboot the XML pixel!",
+  "status": "in progress",
+  "label": "feature",
+  "priority": "high",
+  "assignment": "Abi"
+  },
+  {
+  "id": "TASK-1008",
+  "title": "We need to reboot the multi-byte USB application!",
+  "status": "canceled",
+  "label": "bug",
+  "priority": "medium",
+  "assignment": "Bibi"
+  },
+  {
+  "id": "TASK-1009",
+  "title": "Use the mobile XML transmitter, then you can generate the bluetooth system!",
+  "status": "done",
+  "label": "documentation",
+  "priority": "low",
+  "assignment": "Bereket"
+  },
+  {
+  "id": "TASK-1010",
+  "title": "I'll transmit the wireless SMTP array, that should matrix the PCI capacitor!",
+  "status": "in progress",
+  "label": "feature",
+  "priority": "medium",
+  "assignment": "Muka"
+  },
+  {
+  "id": "TASK-1011",
+  "title": "Generating the application won't do anything, we need to index the online XML panel!",
+  "status": "todo",
+  "label": "bug",
+  "priority": "high",
+  "assignment": "Assim"
+  },
+  {
+  "id": "TASK-1012",
+  "title": "We need to parse the virtual PNG program!",
+  "status": "backlog",
+  "label": "documentation",
+  "priority": "low",
+  "assignment": "Abi"
+  },
+  {
+  "id": "TASK-1013",
+  "title": "If we copy the circuit, we can get to the COM sensor through the online XML program!",
+  "status": "canceled",
+  "label": "feature",
+  "priority": "medium",
+  "assignment": "Bibi"
+  },
+  {
+  "id": "TASK-1014",
+  "title": "Try to input the JSON pixel, maybe it will generate the cross-platform system!",
+  "status": "done",
+  "label": "bug",
+  "priority": "high",
+  "assignment": "Bereket"
+  },
+  {
+  "id": "TASK-1015",
+  "title": "We need to bypass the digital USB monitor!",
+  "status": "in progress",
+  "label": "documentation",
+  "priority": "low",
+  "assignment": "Muka"
+  },
+  {
+  "id": "TASK-1016",
+  "title": "The SMTP feed is down, copy the multi-byte port so we can synthesize the SAS firewall!",
+  "status": "todo",
+  "label": "feature",
+  "priority": "high",
+  "assignment": "Assim"
+  },
+  {
+  "id": "TASK-1017",
+  "title": "I'll hack the digital CSS monitor, that should connect the XSS application!",
+  "status": "backlog",
+  "label": "bug",
+  "priority": "medium",
+  "assignment": "Abi"
+  },
+  {
+  "id": "TASK-1018",
+  "title": "We need to input the mobile DRAM capacitor!",
+  "status": "canceled",
+  "label": "documentation",
+  "priority": "low",
+  "assignment": "Bibi"
+  },
+  {
+  "id": "TASK-1019",
+  "title": "Use the neural XML system, then you can bypass the cross-platform port!",
+  "status": "done",
+  "label": "feature",
+  "priority": "medium",
+  "assignment": "Bereket"
+  },
+  {
+  "id": "TASK-1020",
+  "title": "Calculating the firewall won't do anything, we need to quantify the optical EXE driver!",
+  "status": "in progress",
+  "label": "bug",
+  "priority": "high",
+  "assignment": "Muka"
+  },
+  {
+  "id": "TASK-1021",
+  "title": "We need to generate the virtual SMTP program!",
+  "status": "todo",
+  "label": "documentation",
+  "priority": "low",
+  "assignment": "Assim"
+  },
+  {
+  "id": "TASK-1022",
+  "title": "The PCI sensor is down, copy the wireless pixel so we can calculate the CSS protocol!",
+  "status": "backlog",
+  "label": "feature",
+  "priority": "high",
+  "assignment": "Abi"
+  },
+  {
+  "id": "TASK-1023",
+  "title": "I'll reboot the haptic SMS bus, that should back up the SMTP matrix!",
+  "status": "canceled",
+  "label": "bug",
+  "priority": "medium",
+  "assignment": "Bibi"
+  },
+  {
+  "id": "TASK-1025",
+  "title": "We need to index the mobile TCP program!",
+  "status": "done",
+  "label": "documentation",
+  "priority": "low",
+  "assignment": "Bereket"
+  },
+  {
+  "id": "TASK-1026",
+  "title": "Calculating the bus won't do anything, we need to input the solid state SMTP sensor!",
+  "status": "in progress",
+  "label": "feature",
+  "priority": "high",
+  "assignment": "Muka"
+  },
+  {
+  "id": "TASK-1027",
+  "title": "We need to generate the auxiliary XML interface!",
+  "status": "todo",
+  "label": "bug",
+  "priority": "medium",
+  "assignment": "Assim"
+  },
+  {
+  "id": "TASK-1028",
+  "title": "If we calculate the matrix, we can get to the SSL interface through the mobile USB protocol!",
+  "status": "backlog",
+  "label": "documentation",
+  "priority": "low",
+  "assignment": "Abi"
+  },
+  {
+  "id": "TASK-1029",
+  "title": "I'll transmit the digital PCI pixel, that should override the XSS alarm!",
+  "status": "canceled",
+  "label": "feature",
+  "priority": "medium",
+  "assignment": "Bibi"
+  },
+  {
+  "id": "TASK-1030",
+  "title": "We need to hack the back-end XML bus!",
+  "status": "done",
+  "label": "bug",
+  "priority": "high",
+  "assignment": "Bereket"
+  },
+  {
+  "id": "TASK-1031",
+  "title": "Use the auxiliary SMS capacitor, then you can parse the wireless hard drive!",
+  "status": "in progress",
+  "label": "documentation",
+  "priority": "low",
+  "assignment": "Muka"
+  },
+  {
+  "id": "TASK-1032",
+  "title": "The SSL protocol is down, index the bluetooth interface so we can calculate the HTTP firewall!",
+  "status": "todo",
+  "label": "feature",
+  "priority": "high",
+  "assignment": "Assim"
+  },
+  {
+  "id": "TASK-1033",
+  "title": "I'll generate the digital SMTP application, that should transmit the USB interface!",
+  "status": "backlog",
+  "label": "bug",
+  "priority": "medium",
+  "assignment": "Abi"
+  },
+  {
+  "id": "TASK-1034",
+  "title": "We need to override the multi-byte PCI monitor!",
+  "status": "canceled",
+  "label": "documentation",
+  "priority": "low",
+  "assignment": "Bibi"
+  },
+  {
+  "id": "TASK-1035",
+  "title": "Use the back-end USB bus, then you can generate the wireless sensor!",
+  "status": "done",
+  "label": "feature",
+  "priority": "medium",
+  "assignment": "Bereket"
+  },
+  {
+  "id": "TASK-1036",
+  "title": "Calculating the circuit won't do anything, we need to index the mobile XSS matrix!",
+  "status": "in progress",
+  "label": "bug",
+  "priority": "high",
+  "assignment": "Muka"
+  },
+  {
+  "id": "TASK-1037",
+  "title": "We need to synthesize the cross-platform FTP interface!",
+  "status": "todo",
+  "label": "documentation",
+  "priority": "low",
+  "assignment": "Assim"
+  },
+  {
+  "id": "TASK-1038",
+  "title": "The SMTP bus is down, generate the virtual port so we can bypass the GIF program!",
+  "status": "backlog",
+  "label": "feature",
+  "priority": "high",
+  "assignment": "Abi"
+  },
+  {
+  "id": "TASK-1039",
+  "title": "I'll synthesize the digital SMS sensor, that should program the XML circuit!",
+  "status": "canceled",
+  "label": "bug",
+  "priority": "medium",
+  "assignment": "Bibi"
+  },
+  {
+  "id": "TASK-1040",
+  "title": "We need to transmit the mobile ADP monitor!",
+  "status": "done",
+  "label": "documentation",
+  "priority": "low",
+  "assignment": "Bereket"
+  },
+  {
+  "id": "TASK-1041",
+  "title": "Connecting the alarm won't do anything, we need to input the multi-byte TCP protocol!",
+  "status": "in progress",
+  "label": "feature",
+  "priority": "high",
+  "assignment": "Muka"
+  },
+  {
+  "id": "TASK-1042",
+  "title": "We need to override the virtual SMTP firewall!",
+  "status": "todo",
+  "label": "bug",
+  "priority": "medium",
+  "assignment": "Assim"
+  },
+  {
+  "id": "TASK-1043",
+  "title": "If we input the circuit, we can get to the FTP monitor through the cross-platform SMTP driver!",
+  "status": "backlog",
+  "label": "documentation",
+  "priority": "low",
+  "assignment": "Abi"
+  },
+  {
+  "id": "TASK-1044",
+  "title": "I'll reboot the mobile SQL matrix, that should back up the SMS application!",
+  "status": "canceled",
+  "label": "feature",
+  "priority": "medium",
+  "assignment": "Bibi"
+  },
+  {
+  "id": "TASK-1045",
+  "title": "We need to transmit the auxiliary SMTP program!",
+  "status": "done",
+  "label": "bug",
+  "priority": "high",
+  "assignment": "Bereket"
+  },
+  {
+  "id": "TASK-1046",
+  "title": "Calculating the application won't do anything, we need to index the digital SMS capacitor!",
+  "status": "in progress",
+  "label": "documentation",
+  "priority": "low",
+  "assignment": "Muka"
+  },
+  {
+  "id": "TASK-1047",
+  "title": "The XML protocol is down, copy the mobile port so we can program the HTTP sensor!",
+  "status": "todo",
+  "label": "feature",
+  "priority": "high",
+  "assignment": "Assim"
+  },
+  {
+  "id": "TASK-1048",
+  "title": "I'll generate the digital PCI monitor, that should connect the SMS interface!",
+  "status": "backlog",
+  "label": "bug",
+  "priority": "medium",
+  "assignment": "Abi"
+  },
+  {
+  "id": "TASK-1049",
+  "title": "We need to hack the virtual SMTP firewall!",
+  "status": "canceled",
+  "label": "documentation",
+  "priority": "low",
+  "assignment": "Bibi"
+  },
+  {
+  "id": "TASK-1050",
+  "title": "Use the cross-platform SMTP card, then you can quantify the mobile protocol!",
+  "status": "done",
+  "label": "feature",
+  "priority": "medium",
+  "assignment": "Bereket"
+  },
+  {
+  "id": "TASK-1051",
+  "title": "Calculating the pixel won't do anything, we need to bypass the virtual SMTP bus!",
+  "status": "in progress",
+  "label": "bug",
+  "priority": "high",
+  "assignment": "Muka"
   }
 ]

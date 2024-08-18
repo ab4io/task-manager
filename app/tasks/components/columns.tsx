@@ -120,23 +120,23 @@ export const columns: ColumnDef<Task>[] = [
   {
     accessorKey: "assignment",
     header: ({ column }) => (
-      <DataTableColumnHeader column={column} title="Assignment" />
+      <DataTableColumnHeader column={column} title="Assigned To" />
     ),
     cell: ({ row }) => {
-      const assignment = priorities.find(
-        (assignment) => assignment.value === row.getValue("assignment")
+      const assignments = assignment.find(
+        (assignments) => assignments.value === row.getValue("assignment")
       )
 
-      if (!assignment) {
+      if (!assignments) {
         return null
       }
 
       return (
         <div className="flex items-center">
-          {assignment.icon && (
-            <assignment.icon className="mr-2 h-4 w-4 text-muted-foreground" />
+          {assignments.icon && (
+            <assignments.icon className="mr-2 h-4 w-4 text-muted-foreground" />
           )}
-          <span>{assignment.label}</span>
+          <span>{assignments.label}</span>
         </div>
       )
     },
