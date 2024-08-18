@@ -8,6 +8,10 @@ import {
   QuestionMarkCircledIcon,
   StopwatchIcon,
   PersonIcon,
+  RocketIcon,
+  CookieIcon,
+  LaptopIcon,
+  CameraIcon
 } from "@radix-ui/react-icons"
 
 export const labels = [
@@ -75,26 +79,26 @@ export const assignment = [
   {
     value: "Assim",
     label: "Assim",
-    icon: PersonIcon,
+    icon: LaptopIcon,
   },
   {
     value: "Abi",
     label: "Abi",
-    icon: PersonIcon,
+    icon: LaptopIcon,
   },
   {
     value: "Bereket",
     label: "Bereket",
-    icon: PersonIcon,
+    icon: CookieIcon,
   },
   {
     value: "Bibi",
     label: "Bibi",
-    icon: PersonIcon,
+    icon: RocketIcon,
   },
   {
     value: "Muka",
     label: "Muka",
-    icon: PersonIcon,
+    icon: CameraIcon,
   },
 ]

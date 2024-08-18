@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { promises as fs } from "fs"
 import path from "path"
@@ -12,15 +13,13 @@ import { taskSchema } from "./data/schema"
 import DrawerComp from './components/drawer-comp'
 import CardComponent from './components/card-comp'
 import { CardSpotlight } from '@/components/ui/card-spotlight'
-import { BackgroundGradient } from '@/components/ui/background-gradient'
-
+import { title } from 'process'
 
 
 export const metadata: Metadata = {
     title: "Tasks",
     description: "A task and issue tracker build using Tanstack Table.",
   }
-
 export async function getTasks() {
     const data = await fs.readFile(
       path.join(process.cwd(), "app\\tasks\\data\\tasks.json")
@@ -33,7 +32,7 @@ export async function getTasks() {
 
   export default async function TaskPage() {
     const tasks = await getTasks()
-
+ 
   return (
     <>
       <div className="md:hidden">
@@ -66,24 +65,32 @@ export async function getTasks() {
         </div>
         <DataTable data={tasks} columns={columns} />
       </div>
+      
       <div className='m-10 p-10 flex justify-between'>
         {/*<CardComponent /> */}
-        <CardSpotlight className="h-96 w-96">
-        <p className="text-xl font-bold relative z-20 mt-2 text-white">
-          Task Title
+        
+        <CardSpotlight className="h-96 w-96 items-center justify-center">
+        { tasks.map((task, index) => (
+        <div key={task.id}>
+        <p  className="text-xl font-bold relative z-20 mt-2 text-white">
+          Title: {task.title}
         </p>
         <p className="text-xl font-bold relative z-20 mt-2 text-white">
-          Task Title
+          Assigned To: {task.assignment}
         </p>
         <p className="text-xl font-bold relative z-20 mt-2 text-white">
-          Task Title
+          Status : {task.status}
         </p>
         <p className="text-xl font-bold relative z-20 mt-2 text-white">
-          Task Title
+          Priority : {task.priority}
         </p>
+        </div>
+        ))}
         </CardSpotlight>
+        
         <DrawerComp className='h-96 w-96'></DrawerComp>
       </div>
+      
     </>
   )
 }

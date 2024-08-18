@@ -6,12 +6,17 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Children } from "react";
+import Header from "@/components/header";
 const inter = Inter({ subsets: ["latin"] });
+
+
 
 export const metadata: Metadata = {
   title: "Tasks",
   description: "mini project",
 };
+
+
 
 export default function RootLayout({
   children,
@@ -27,9 +32,9 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <div className="flex align-center justify-between">
-              <div>Headers</div>
-              <div>
+            <div className="flex align-center justify-between p-5">
+              <Header />
+              <div >
                 <ModeToggle />
               </div>
             </div>
@@ -38,3 +43,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+
