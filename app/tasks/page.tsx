@@ -9,6 +9,10 @@ import { columns } from "./components/columns"
 import { DataTable } from "./components/data-table"
 import { UserNav } from "./components/user-nav"
 import { taskSchema } from "./data/schema"
+import DrawerComp from './components/drawer-comp'
+import CardComponent from './components/card-comp'
+import { CardSpotlight } from '@/components/ui/card-spotlight'
+import { BackgroundGradient } from '@/components/ui/background-gradient'
 
 
 
@@ -31,7 +35,7 @@ export async function getTasks() {
     const tasks = await getTasks()
 
   return (
-        <>
+    <>
       <div className="md:hidden">
         <Image
           src="/examples/tasks-light.png"
@@ -61,6 +65,24 @@ export async function getTasks() {
           </div>
         </div>
         <DataTable data={tasks} columns={columns} />
+      </div>
+      <div className='m-10 p-10 flex justify-between'>
+        {/*<CardComponent /> */}
+        <CardSpotlight className="h-96 w-96">
+        <p className="text-xl font-bold relative z-20 mt-2 text-white">
+          Task Title
+        </p>
+        <p className="text-xl font-bold relative z-20 mt-2 text-white">
+          Task Title
+        </p>
+        <p className="text-xl font-bold relative z-20 mt-2 text-white">
+          Task Title
+        </p>
+        <p className="text-xl font-bold relative z-20 mt-2 text-white">
+          Task Title
+        </p>
+        </CardSpotlight>
+        <DrawerComp className='h-96 w-96'></DrawerComp>
       </div>
     </>
   )
