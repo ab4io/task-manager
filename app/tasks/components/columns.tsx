@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { Checkbox } from "@/components/ui/checkbox"
 
 
-import { labels, priorities, statuses } from "../data/data"
+import { labels, priorities, statuses, assignment } from "../data/data"
 import { Task } from "../data/schema"
 import { DataTableColumnHeader } from "./data-table-column-header"
 import { DataTableRowActions } from "./data-table-row-actions"
@@ -118,7 +118,35 @@ export const columns: ColumnDef<Task>[] = [
     },
   },
   {
+    accessorKey: "assignment",
+    header: ({ column }) => (
+      <DataTableColumnHeader column={column} title="Assignment" />
+    ),
+    cell: ({ row }) => {
+      const assignment = priorities.find(
+        (assignment) => assignment.value === row.getValue("assignment")
+      )
+
+      if (!assignment) {
+        return null
+      }
+
+      return (
+        <div className="flex items-center">
+          {assignment.icon && (
+            <assignment.icon className="mr-2 h-4 w-4 text-muted-foreground" />
+          )}
+          <span>{assignment.label}</span>
+        </div>
+      )
+    },
+    filterFn: (row, id, value) => {
+      return value.includes(row.getValue(id))
+    },
+  },
+  {
     id: "actions",
     cell: ({ row }) => <DataTableRowActions row={row} />,
   },
+  
 ]

@@ -7,6 +7,7 @@ import {
   CrossCircledIcon,
   QuestionMarkCircledIcon,
   StopwatchIcon,
+  PersonIcon,
 } from "@radix-ui/react-icons"
 
 export const labels = [
@@ -67,5 +68,33 @@ export const priorities = [
     label: "High",
     value: "high",
     icon: ArrowUpIcon,
+  },
+]
+
+export const assignment = [
+  {
+    value: "Assim",
+    label: "Assim",
+    icon: PersonIcon,
+  },
+  {
+    value: "Abi",
+    label: "Abi",
+    icon: PersonIcon,
+  },
+  {
+    value: "Bereket",
+    label: "Bereket",
+    icon: PersonIcon,
+  },
+  {
+    value: "Bibi",
+    label: "Bibi",
+    icon: PersonIcon,
+  },
+  {
+    value: "Muka",
+    label: "Muka",
+    icon: PersonIcon,
   },
 ]

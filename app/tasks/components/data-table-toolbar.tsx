@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { DataTableViewOptions } from "../components/data-table-view-options"
 
-import { priorities, statuses } from "../data/data"
+import { assignment, priorities, statuses } from "../data/data"
 import { DataTableFacetedFilter } from "./data-table-faceted-filter"
 
 interface DataTableToolbarProps<TData> {
@@ -42,6 +42,13 @@ export function DataTableToolbar<TData>({
             column={table.getColumn("priority")}
             title="Priority"
             options={priorities}
+          />
+        )}
+        {table.getColumn("assignment") && (
+          <DataTableFacetedFilter
+            column={table.getColumn("assignment")}
+            title="Assignment"
+            options={assignment}
           />
         )}
         {isFiltered && (
